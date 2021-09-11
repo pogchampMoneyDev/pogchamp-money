@@ -1,0 +1,93 @@
+.Presale-Logo {
+  max-height: 20vh;
+}
+
+
+.PresaleDApp {
+  
+
+  .InputWrapper {
+    position: relative;
+
+    span {
+      position: absolute;
+
+      font-size: 20px;
+      color: rgb(93, 0, 105);
+      font-weight: 700;
+
+      &:nth-child(1) {
+        left: 100px;
+        top: 5px;
+      }
+      &:nth-child(2) {
+        right: 100px;
+        bottom: 15px;
+      }
+    }
+
+    img {
+      height: 30px;
+      margin-right: 10px;
+      margin-bottom: -8px;
+    }
+  }
+
+  input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 8vh;
+    margin-bottom: 3vh;
+    
+    width: 75%;
+
+    border: none;
+    border-bottom: 4px solid rgb(93, 0, 105);
+    border-radius: 1.5vh;
+
+    background-color: rgb(160, 160, 160);
+ 
+    padding-left: 15px;
+    padding-bottom: 0;
+    padding-top: 4vh;
+    line-height: 8vh;
+    
+    box-sizing: border-box;
+
+    font-size: 18px;
+    color: rgb(93, 0, 105);
+    font-weight: 700;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    width: 60%;
+    height: 4vh;
+    
+    border-radius: 0.5vh;
+    border: none;
+    border-bottom: 4px solid rgb(74, 0, 83);
+    border-radius: 1.5vh;
+    background-color: rgb(93, 0, 105);
+    
+    font-size: 20px;
+    color: rgb(218, 218, 218);
+    font-weight: 700;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(110, 0, 124);
+    }
+    &:active {
+      background-color: rgb(93, 0, 105);
+      border: none;
+      border-top: 4px solid rgb(74, 0, 83);
+    }
+  }
+}
